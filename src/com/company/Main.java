@@ -15,10 +15,10 @@ public class Main{
 
         int partner_age = in.nextInt();
 
-        calculateIfAcceptable(user_age, partner_age);
+        calculafAcceptable(user_age, partner_age);
     }
 
-    private static void calculateIfAcceptable(int user_age, int partner_age){
+    private static void calculafAcceptable(int user_age, int partner_age){
         while(true){
             if(user_age / 2 + 7 > partner_age){
                 System.out.println("you are a perv, and you should be ashamed of yourself! \n" +
